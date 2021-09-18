@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/startAlerts"
+        android:orderInCategory="100"
+        android:title="Start Date Alert"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/endAlerts"
+        android:orderInCategory="100"
+        android:title="End Date Alert"
+        app:showAsAction="never" />
+
+</menu>

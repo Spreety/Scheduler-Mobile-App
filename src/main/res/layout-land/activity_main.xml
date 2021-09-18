@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.melissaeppersonc196.scheduler.UI.MainActivity">
+
+    <Button
+        android:id="@+id/termsButton"
+        android:layout_width="193dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#1549CA"
+        android:onClick="termsScreen"
+        android:text="View Terms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/coursesButton"
+        android:layout_width="172dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#1549CA"
+        android:onClick="coursesScreen"
+        android:text="View Courses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/assessmentsButton" />
+
+    <Button
+        android:id="@+id/assessmentsButton"
+        android:layout_width="193dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#1549CA"
+        android:onClick="assessmentsScreen"
+        android:text="View Assessments"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/termsButton" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="207dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="102dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/ic_baseline_school_24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="134dp"
+        android:text="Welcome"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

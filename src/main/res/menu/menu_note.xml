@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/alerts"
+        android:orderInCategory="100"
+        android:title="Alerts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/shareNote"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never" />
+
+</menu>

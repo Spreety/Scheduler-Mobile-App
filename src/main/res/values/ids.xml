@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="type" type="id" />
+    <item name="endDate" type="id" />
+    <item name="alerts" type="id" />
+</resources>

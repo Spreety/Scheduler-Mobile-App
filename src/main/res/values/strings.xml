@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MelissaEppersonC196</string>
+    <string name="view_courses">View Courses</string>
+    <string name="view_terms">View Terms</string>
+    <string name="view_assessments">View Assessments</string>
+    <string name="graduation_cap">Graduation Cap</string>
+    <string name="welcome">Welcome</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="add_button">Add Button</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="add_notes_button">Add Notes Button</string>
+    <string name="notes">Notes</string>
+    <string name="add_assessment_button">Add Assessment Button</string>
+    <string name="AL_delete_button" />
+    <string name="AL_edit_button" />
+    <string name="AL_add_button" />
+    <string name="CL_edit_button" />
+    <string name="CL_add_button" />
+    <string name="CL_delete_button" />
+    <string name="TL_edit_button" />
+    <string name="AV_edit_button" />
+    <string name="CV_add_notes_button" />
+    <string name="CV_edit_button" />
+    <string name="CV_add_assessment_button" />
+    <string name="TV_delete_button" />
+    <string name="TV_add_button" />
+    <string name="TV_edit_button" />
+    <string name="AT_textview" />
+    <string name="assessment_name">Assessment Name</string>
+    <string name="course_name" />
+    <string name="AV_add_assessment_button" />
+    <string name="channelTitle">App Notifications</string>
+    <string name="notificationDescription">Notifications for Scheduler App</string>
+    <string name="Home" />
+    <string name="channel_name" />
+    <string name="channel_description" />
+    <string name="coursestatus" />
+    <string name="courseStatus" />
+    <string name="Assessment_type">Assessment Type</string>
+
+    <string-array name="status">
+        <item>Plan To Take</item>
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Objective</item>
+        <item>Performance</item>
+    </string-array>
+</resources>

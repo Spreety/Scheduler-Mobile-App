@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.melissaeppersonc196">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Scheduler"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MelissaEppersonC196">
+        <receiver
+            android:name="android.melissaeppersonc196.scheduler.UI.Receiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity android:name="android.melissaeppersonc196.scheduler.UI.AssessmentViewActivity"
+            android:label="Assessment"
+            android:parentActivityName="android.melissaeppersonc196.scheduler.UI.AssessmentListActivity"></activity>
+        <activity android:name="android.melissaeppersonc196.scheduler.UI.TermViewActivity"
+            android:label="Term"
+            android:parentActivityName="android.melissaeppersonc196.scheduler.UI.TermListActivity"/>
+        <activity android:name="android.melissaeppersonc196.scheduler.UI.CourseViewActivity"
+            android:label="Course"
+            android:parentActivityName="android.melissaeppersonc196.scheduler.UI.CourseListActivity"/>
+        <activity android:name="android.melissaeppersonc196.scheduler.UI.AssessmentListActivity"
+            android:label="Assessments"
+            android:parentActivityName="android.melissaeppersonc196.scheduler.UI.MainActivity"/>
+        <activity android:name="android.melissaeppersonc196.scheduler.UI.CourseListActivity"
+            android:label="Courses"
+            android:parentActivityName="android.melissaeppersonc196.scheduler.UI.MainActivity"/>
+        <activity android:name="android.melissaeppersonc196.scheduler.UI.TermListActivity"
+            android:label="Terms"
+            android:parentActivityName="android.melissaeppersonc196.scheduler.UI.MainActivity"/>
+        <activity android:name="android.melissaeppersonc196.scheduler.UI.NoteActivity"
+            android:label="Notes"
+            android:parentActivityName="android.melissaeppersonc196.scheduler.UI.CourseViewActivity"/>
+        <activity android:name="android.melissaeppersonc196.scheduler.UI.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
