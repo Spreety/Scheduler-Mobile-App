@@ -49,12 +49,12 @@ This screen auto-populates with all of the information for the selected course. 
 <img width="300" alt="edit course screenshot" src="https://user-images.githubusercontent.com/25159870/150703558-802d7143-e72e-43f0-98ec-15307def95c4.jpg"><img width="200" alt="Course menu options screenshot" src="https://user-images.githubusercontent.com/25159870/150702857-ff0f0452-ae0f-4533-8d21-b894ef1fc2ce.jpg">
 
 **New Note Screen**
-This screen is access from the course screen. It allows you to add a new note to the course. It auto-populates with the selected course that you are adding the note to. You have the option to save or delete. The mentu option on this screen allows you to go back to the main screen, set an alert, or share your note via e-mail or text messaging.
+This screen is accessed from the course screen. It allows you to add a new note to the course. It auto-populates with the selected course that you are adding the note to. You have the option to save or delete. The menu option on this screen allows you to go back to the main screen, set an alert, or share your note via e-mail or text messaging.
 
 <img width="300" alt="Add new note screenshot" src="https://user-images.githubusercontent.com/25159870/150703672-c9172e6f-3597-4420-9bd8-c150b6bdef53.jpg"><img width="200" alt="Note menu options screenshot" src="https://user-images.githubusercontent.com/25159870/150703677-f353caec-a6d3-41e6-9375-1763a1c4274f.jpg">
 
 **Edit Note Screen**
-This screen allows you to edit an exiting note. It auto-populated with the information from the selected note. You are able to make changes to the note or delete the note altogether. The menu option on this screen allows you to go back to the main screen, set an alert, or share your note via e-mail or text messaging.
+This screen allows you to edit an existing note. It auto-populates with the information from the selected note. You are able to make changes to the note or delete the note altogether. The menu option on this screen allows you to go back to the main screen, set an alert, or share your note via e-mail or text messaging.
 
 <img width="300" alt="Edit note screenshot" src="https://user-images.githubusercontent.com/25159870/150703738-0612ca99-dc0e-4aa8-ae9f-7a3d1403f745.jpg"><img width="200" alt="Note menu options screenshot" src="https://user-images.githubusercontent.com/25159870/150703677-f353caec-a6d3-41e6-9375-1763a1c4274f.jpg">
 
@@ -69,7 +69,7 @@ This screen allows you to add a new assessment. You choose the course that the a
 <img width="300" alt="Add new assessment screenshot" src="https://user-images.githubusercontent.com/25159870/150703938-9d4b5c82-fcb2-49cc-b837-34b065d4695d.jpg">
 
 **Edit Assessment Screen**
-This screen allows you to edit an exiting assessment. It auto-populates with the information from the selected assessment. You are able to make changes to the assessment or delete the assessment altogether. The menu option allows you to go back to the home screen or set an alert so you get an android phone notification when the end date is coming up. 
+This screen allows you to edit an existing assessment. It auto-populates with the information from the selected assessment. You are able to make changes to the assessment or delete the assessment altogether. The menu option allows you to go back to the home screen or set an alert so you get an android phone notification when the end date is coming up. 
 
 <img width="300" alt="Edit assessment screenshot" src="https://user-images.githubusercontent.com/25159870/150704018-e851d3f1-fe42-43c3-9668-5f82de1525f8.jpg">
 
